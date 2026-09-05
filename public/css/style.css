@@ -1,0 +1,23 @@
+.card-title {
+    font-size: 13px;
+    height: 100px;
+}
+
+.source {
+    display: flex;
+    justify-content: space-between;
+    border-top: 5px solid gray;
+    border-bottom: 5px solid gray;
+    margin: 10px;
+    padding-top: 10px;
+}
+
+.source p {
+    font-size: 12px;
+}
+
+.card-text {
+    font-size: 13px;
+    height: 200px;
+
+}
