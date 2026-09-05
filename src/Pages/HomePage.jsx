@@ -16,7 +16,7 @@ export default function HomePage() {
     let [page, setPage] = useState(1)
 
     async function getAPIData(q, language) {
-        let response = await fetch(`https://newsapi.org/v2/everything?q=${q}&language=${language}&pageSize=24&pages=1&sortBy=publishedAt&apiKey=84961cd16d204c458dfb860a369b6380`)
+        let response = await fetch(`https://newsapi.org/v2/everything?q=${q}&language=${language}&pageSize=24&page=1&sortBy=publishedAt&apiKey=84961cd16d204c458dfb860a369b6380`)
         response = await response.json()
         if (response.status === "ok") {
             setArticles(response.articles)
