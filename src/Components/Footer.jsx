@@ -1,18 +1,3 @@
-// import React from 'react'
-
-// export default function Footer() {
-//   return (
-//     <div className='bg-secondary pt-2 pb-5 text-light text-center'>
-//       <a className='text-light' href="https://rajan-portfolio-zk98.vercel.app"
-//         target="_blank"
-//         rel="noreferrer">
-//         © 2026 Rajan Kushwaha
-//       </a>
-//       | News24. All Rights Reserved.
-//     </div>
-//   )
-// }
-
 import React from 'react'
 
 export default function Footer() {
