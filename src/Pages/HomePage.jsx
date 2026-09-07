@@ -106,6 +106,13 @@ export default function HomePage() {
 
     useEffect(() => {
 
+        // CATEGORY / LANGUAGE CHANGE PAR PAGE TOP PAR JAYEGA
+        window.scrollTo({
+            top: 0,
+            left: 0,
+            behavior: "instant"
+        })
+
         let searchQuery = searchParams.get("q") ?? "All"
         let selectedLanguage = searchParams.get("language") ?? "en"
 
