@@ -125,7 +125,7 @@ export default function HomePage() {
         } catch (error) {
             console.log("AI Error:", error)
             setAiAnswer(
-                "AI service se connect nahi ho pa raha hai."
+                "AI service is not connected."
             )
         } finally {
             setAiLoading(false)
